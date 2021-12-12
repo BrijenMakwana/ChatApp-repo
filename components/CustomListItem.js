@@ -27,14 +27,13 @@ export default function CustomListItem({ id, chatName, enterChat }) {
 
   return (
     <ListItem key={id} bottomDivider onPress={() => enterChat(id, chatName)}>
-      (
       <Avatar
         rounded
         source={{
           uri: chatMessages?.[0]?.photoURL,
         }}
       />
-      )
+
       <ListItem.Content>
         <ListItem.Title style={{ fontWeight: "bold" }}>
           {chatName}
