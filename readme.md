@@ -4,7 +4,7 @@ Vacta is a chatroom app for both Android and iOS. User can register in the app a
 
 Technologies:
 
-React Native expo
-React navigation
-React Native Elements
+React Native expo,
+React navigation,
+React Native Elements,
 Firebase for the backend
